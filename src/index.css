@@ -1,13 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h3 {
+  font-size: 4em;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
 }
+
+h4 {
+  font-size: 3em;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+#section1 {
+  color: #fff;
+}
+.section{
+  height: 100vh;
+  
+}
+
+.fp-section {
+  text-align: center;
+}
+
+.logo {
+  width: 30%;
+  
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+
+.thumbnails {
+  border-radius: 25px;
+  
+}
+
+h2 {
+  color:#fff;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
