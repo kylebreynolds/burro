@@ -6,7 +6,7 @@ function Home() {
       
       <div class="flex justify-center flex-rowspace-x-10 ">
         <img
-          class="logo lg:w-1/3"
+          class="logo md:w-1/3 lg:w-1/3"
           alt="logo"
           src={require("../assets/burrologo.png")}
         />
