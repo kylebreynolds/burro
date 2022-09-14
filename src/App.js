@@ -2,10 +2,8 @@ import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
 import "./index.css";
 import Home from "./components/Home";
-import Contact from "./components/Contact";
-import Burro from "./components/Burro";
 import ComingSoon from "./components/ComingSoon";
-const anchors = ["Home", "Burro", "ComingSoon", "Contact"];
+const anchors = ["Home","ComingSoon"];
 
 const App = () => (
   <ReactFullpage
@@ -15,7 +13,7 @@ const App = () => (
     navigation
     navigationTooltips={anchors}
     navigat
-    sectionsColor={["#f9e7c7", "#b52024", "#f4a51d", "#3c2415"]}
+    sectionsColor={["#f9e7c7", "#b52024"]}
     onLeave={(origin, destination, direction) => {
       console.log("onLeave event", { origin, destination, direction });
     }}
@@ -25,22 +23,12 @@ const App = () => (
       return (
         <div>
           <div className="section">
-            <h3>Burro</h3>
             <Home/>
           </div>
           <div className="section">
-            <h4>Portfolio</h4>
-            <Burro/>
-          </div>
-          <div className="section">
-            <h4>Resume</h4>
             <ComingSoon/>
-            
           </div>  
-          <div className="section">
-            <h4>Contact</h4>
-            <Contact/>
-          </div>
+
         </div>
       );
     }}

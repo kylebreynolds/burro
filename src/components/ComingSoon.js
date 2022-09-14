@@ -2,13 +2,13 @@ import React from "react";
 
 function ComingSoon() {
   return (
-    <div class="relative h-32 w-32">
+    <div class="flex justify-center flex-rowspace-x-10 pt-10">
       
         
-        <img
-          class="absolute bottom-0 right-0 h-16 w-16 "
-          alt="burrobowl"
-          src={require("../assets/burrobowl.png")}
+      <img
+          class="burrojars"
+          alt="burrojars"
+          src={require("../assets/burrojars.png")}
         />
       
     </div>
