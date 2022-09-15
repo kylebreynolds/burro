@@ -18,6 +18,7 @@ function ComingSoon() {
             <input
               class="appearance-none bg-transparent border-none w-full text-white-700 mr-3 py-1 px-2 leading-tight focus:outline-none placeholder-white border"
               type="email"
+              name="email"
               placeholder="Email"
               aria-label="email"
             />
