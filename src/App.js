@@ -3,7 +3,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import "./index.css";
 import Home from "./components/Home";
 import ComingSoon from "./components/ComingSoon";
-const anchors = ["Home","ComingSoon"];
+const anchors = ["Home", "ComingSoon"];
 
 const App = () => (
   <ReactFullpage
@@ -23,12 +23,11 @@ const App = () => (
       return (
         <div>
           <div className="section">
-            <Home/>
+            <Home />
           </div>
           <div className="section">
-            <ComingSoon/>
-          </div>  
-
+            <ComingSoon />
+          </div>
         </div>
       );
     }}
