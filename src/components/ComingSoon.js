@@ -16,7 +16,7 @@ function ComingSoon() {
         >
           <div class="flex items-center border-b border-yellow-500 pt-2">
             <input
-              class="appearance-none bg-transparent border-none w-full text-white-700 mr-3 py-1 px-2 leading-tight focus:outline-none placeholder-white border"
+              class="appearance-none bg-transparent border-none w-full text-white mr-3 py-1 px-2 leading-tight focus:outline-none placeholder-white border"
               type="email"
               name="email"
               placeholder="Email"
